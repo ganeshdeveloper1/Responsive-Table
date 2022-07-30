@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+    <title>Responsive Table</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-fields">
+        <p>Enter the Details:</p>
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="text" id="city" placeholder="City" />
+        <input type="text" id="country" placeholder="Country" />
+        <button class="btn1">Add to Top</button>
+        <button class="btn2">Add to Bottom</button>
+      </div>
+
+      <table id="table">
+        <thead>
+          <th>SL No.</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>City</th>
+          <th>Country</th>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
